@@ -1,7 +1,9 @@
 """ Local functions """
+from ast import Pass
 from general import *
 from call_api import *
 from log import *
+from match import *
 """ Python libraries """
 import re # for regex
 from pickle import FALSE, TRUE
@@ -167,15 +169,38 @@ def bib_has_match(xmlRecord, xpath_balise, id_type, multi_prefix, el035, log_bib
         # if match or if API returns an error (code 400 isn't an error, just means we didn't find a match)
         if bib_match['exist_iz'] or bib_match['exist_nz'] or bib_match['api_error'] :
             #save_log(log_bib_match, [zone.upper(), get_record['error'], get_record['nz_id'], get_record['iz_id'], el035, get_record['r_code'], get_record['r_xml']])
-            save_log(log_bib_match, [zone.upper(), get_record['error'], bib_match['nz_id'], bib_match['iz_id'], el035, get_record['r_code'], bib_match['get_record_xml']])           
+            save_log(log_bib_match, [zone.upper(), bib_match['sru'], get_record['error'], bib_match['nz_id'], bib_match['iz_id'], el035, get_record['r_code'], bib_match['get_record_xml']])           
     globals()['bib_match'] = bib_match
     #return {'api_error': api_error, 'exist_nz' : exist_nz, 'exist_iz' : exist_iz, 'nz_id' : nz_id, 'iz_id' : iz_id, 'get_xml' : get_record_xml}
 
+def bib_match_valid(bib_match, r_alma, api_key_iz, erreur, code):
+    zone = 'nz'                    
+    bib_match['exist_nz'] = True
+    match = re.search('tag="001">([0-9]+)<', str(r_alma))
+    bib_match['nz_id'] = match.group(1)
+    bib_match['get_record_xml'] = r_alma
 
-def bib_sru(r_import, id_list, el035, api_key_iz, log_bib_match, env, bib_match):
+    # check if record exists in iz
+    r_alma = get_bib('iz', api_key_iz, nz_mms_id = bib_match['nz_id'])
+    if r_alma['r_code'] == 200 :
+        erreur = r_alma['error']
+        code = r_alma['r_code']
+        zone = 'iz'
+        bib_match['exist_iz'] = True
+        bib_match['iz_id'] = r_alma['iz_id']
+        bib_match['get_record_xml'] = r_alma['r_xml']     
+    if r_alma['r_code'] == 500 : 
+        bib_match['api_error'] = True
+        erreur = r_alma['error']
+        code = r_alma['r_code']
+    return bib_match, zone, erreur, code
+
+
+def bib_sru(r_import, id_list, el035, api_key_iz, log_bib_match, env, bib_match, filter_and, filter_or):
     id_dico = {
         "isbn" : './datafield[@tag="020"]/subfield[@code="a"]',
-        "issn" : './datafield[@tag="022"]/subfield[@code="a"]'
+        "issn" : './datafield[@tag="022"]/subfield[@code="a"]',
+        "standard_number" : './datafield[@tag="024"]/subfield[@code="a"]'
     }
     code = ''
     error = ''
@@ -188,39 +213,98 @@ def bib_sru(r_import, id_list, el035, api_key_iz, log_bib_match, env, bib_match)
                 r_alma = sru_search(env, id_type, id_value)
                 erreur = r_alma['error']
                 code = r_alma['r_code']
+                # un seul record correspond  --> double check
                 if r_alma['r_code'] == 200 and r_alma['record_count'] == '1' :
-                    zone = 'nz'                    
-                    bib_match['exist_nz'] = True
-                    bib_match['nz_id'] = r_alma['nz_id']
-                    bib_match['get_record_xml'] = r_alma['r_xml']
+                    # Double check avec éléments renseignés dans filter_criteria
+                    #{'nb_valid_rec': len(valid_rec), 'valid_rec_list': valid_rec, 'log_all_rec':log_all_rec} 
+                    valid_rec = False
+                    if filter_and !=[]:
+                        check_filter_and = double_check(r_alma['r_xml'], r_import, filter_and, 'and')
+                        bib_match['sru'].append({'filter_and':check_filter_and['log_all_rec']})
+                    if filter_or !=[]:
+                        check_filter_or = double_check(r_alma['r_xml'], r_import, filter_or, 'or')
+                        bib_match['sru'].append({'filter_or':check_filter_or['log_all_rec']})
+                    if filter_and !=[] and filter_or !=[]:
+                        if check_filter_and['valid_rec_list']!=[] and check_filter_and['valid_rec_list']==check_filter_or['valid_rec_list']:
+                            valid_rec = True
+                    elif filter_and!=[] and check_filter_and['valid_rec_list']!=[]:
+                        valid_rec = True
+                    elif filter_or!=[] and check_filter_or['valid_rec_list']!=[]:
+                        valid_rec = True
+                    # Si pas de correspondance --> création record
+                    if not valid_rec:
+                        pass
+                    # Si double check ok
+                    else:
+                        valid_match = bib_match_valid(bib_match, r_alma['r_xml'], api_key_iz, erreur, code)
+                        bib_match = valid_match[0]
+                        zone = valid_match[1]
+                        erreur = valid_match[2]
+                        code = valid_match[3]
+                        break
 
-                    # check if record exists in iz
-                    r_alma = get_bib('iz', api_key_iz, nz_mms_id = bib_match['nz_id'])
-                    if r_alma['r_code'] == 200 :
-                        erreur = r_alma['error']
-                        code = r_alma['r_code']
-                        zone = 'iz'
-                        bib_match['exist_iz'] = True
-                        bib_match['iz_id'] = r_alma['iz_id']
-                        bib_match['get_record_xml'] = r_alma['r_xml']     
-                    if r_alma['r_code'] == 500 : 
-                        bib_match['api_error'] = True
-                        erreur = r_alma['error']
-                        code = r_alma['r_code']
-                    break
+                # plusieurs correspondances --> double check
                 elif r_alma['r_code'] == 200 and int(r_alma['record_count']) > 1 :
-                    zone = 'nz'                   
-                    bib_match['exist_nz'] = True
-                    bib_match['get_record_xml'] = r_alma['r_xml']
-                    bib_match['api_error'] = True
-                    r_alma['error'] = 'multi match found'
+                    # Double check avec éléments renseignés dans filter_criteria
+                    valid_rec = False
+                    no_valid_rec = False
+                    if filter_and !=[]:
+                        check_filter_and = double_check(r_alma['r_xml'], r_import, filter_and, 'and')
+                        bib_match['sru'].append({'filter_and':check_filter_and['log_all_rec']})
+                    if filter_or !=[]:
+                        check_filter_or = double_check(r_alma['r_xml'], r_import, filter_or, 'or')
+                        bib_match['sru'].append({'filter_or':check_filter_or['log_all_rec']})
+                    if filter_and !=[] and filter_or !=[]:
+                        if check_filter_and['valid_rec_list']!=[]:
+                            fusion_valid_rec = [rec for rec in check_filter_and['valid_rec_list'] if rec in check_filter_or['valid_rec_list']]
+                            if len(fusion_valid_rec) == 1:
+                                valid_rec = True
+                            elif fusion_valid_rec == []:
+                                no_valid_rec = True
+                        else:
+                            no_valid_rec = True
+                    elif filter_and!=[]:
+                        if len(check_filter_and['valid_rec_list'])==1:
+                            fusion_valid_rec = check_filter_and['valid_rec_list']
+                            valid_rec = True
+                        elif check_filter_and['valid_rec_list']==[]:
+                            no_valid_rec = True 
+                    elif filter_or!=[]:
+                        if len(check_filter_or['valid_rec_list'])==1:
+                            fusion_valid_rec = check_filter_or['valid_rec_list']
+                            valid_rec = True
+                        elif check_filter_or['valid_rec_list']==[]:
+                            no_valid_rec = True 
+                    # Si une seule notice valide passe le double check --> raccrochage
+                    if valid_rec:
+                        valid_match = bib_match_valid(bib_match, fusion_valid_rec, api_key_iz, erreur, code)
+                        bib_match = valid_match[0]
+                        zone = valid_match[1]
+                        erreur = valid_match[2]
+                        code = valid_match[3]
+                        break
+                    # Sinon, si pas de correspondance --> création record
+                    elif no_valid_rec :
+                        pass
+
+                    # Si plusieurs notices passent le double check --> erreur
+                    else:
+                        zone = 'nz'                   
+                        bib_match['exist_nz'] = True
+                        bib_match['get_record_xml'] = r_alma['r_xml']
+                        bib_match['api_error'] = True
+                        erreur = 'multi match found : notice non importée !'
+
+                # pas de correspondance --> création record
                 elif r_alma['r_code'] == 200 and r_alma['record_count'] == '0' :
                     pass
+
+                # l'appel API renvoie une erreur --> pas d'import, log API ajouté à log_bib_match
                 elif r_alma['r_code'] != 200 :
                     bib_match['api_error'] = True
                     bib_match['get_record_xml'] = r_alma['r_xml']     
             else :
-                pass # pas d'id correspondant dans le code du fichier source
+                pass # pas d'id correspondant dans le code du fichier source --> pas de recherche sru --> création record
         else :
             print("Valeur non reconnue dand fichier json 'general_params['sru_search']['identifier']'")
             print(f"Processus terminé avec la notice {el035}")
@@ -228,7 +312,7 @@ def bib_sru(r_import, id_list, el035, api_key_iz, log_bib_match, env, bib_match)
     bib_match['get_record_xml'] = bib_match['get_record_xml'].replace("\n", " ").replace("\t", " ")
     globals()['bib_match'] = bib_match
     if bib_match['exist_iz'] or bib_match['exist_nz'] or bib_match['api_error'] :
-        save_log(log_bib_match, [zone.upper(), erreur, bib_match['nz_id'], bib_match['iz_id'], el035, code, bib_match['get_record_xml']])    
+        save_log(log_bib_match, [zone.upper(), bib_match['sru'], erreur, bib_match['nz_id'], bib_match['iz_id'], el035, code, bib_match['get_record_xml']])    
 
 
 def add_new_field(f_alma=None, code=None, val_imp=None, log=None, r_alma=None, f_imp=None):

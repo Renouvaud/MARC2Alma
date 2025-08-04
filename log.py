@@ -13,9 +13,9 @@ from xlsxwriter import Workbook
 
 #list of log files headers
 list_log = {
-        'log_bib' : ['PROCESSUS', 'NZ ID', 'IZ ID', "035 (ID du système d'origine)", 'CHAMPS AJOUTES', 'CONTENU XML'],
+        'log_bib' : ['PROCESSUS', 'SRU', 'NZ ID', 'IZ ID', "035 (ID du système d'origine)", 'CHAMPS AJOUTES', 'CONTENU XML'],
         'log_bib_unimported' : ['INTERRUPTION DU PROCESSUS', 'CAUSE DE REJET', "035 (ID du système d'origine)", 'NZ ID', 'IZ ID', "CODE D'ERREUR", 'CONTENU XML'],
-        'log_bib_match' : ['INST REQUETE', 'ERREUR', 'NZ ID', 'IZ ID', "035 (ID du système d'origine)", 'CODE REPONSE', 'CONTENU XML'],
+        'log_bib_match' : ['INST REQUETE', 'SRU', 'ERREUR', 'NZ ID', 'IZ ID', "035 (ID du système d'origine)", 'CODE REPONSE', 'CONTENU XML'],
         'log_holding' : ['NZ ID', 'IZ ID', 'HOLDING ID', "035 (ID du système d'origine)", 'LOCALISATION', 'COTE', 'NOMBRE D\'EXEMPLAIRES', 'MESSAGE SUPPRESSION', 'CONTENU XML'],
         'log_holding_unimported' : ['CAUSE DE REJET', 'NZ ID', 'IZ ID', 'HOLDING ID', "035 (ID du système d'origine)", 'LOCALISATION', 'COTE GENERIQUE', 'COTE1', 'CODE REQUETE', 'CONTENU XML'],
         'log_item' : ['CODE-BARRE', 'NZ ID', 'IZ ID', 'HOLDING ID', '035 (ID du système d\'origine)', 'LOCALISATION', 'COTE HOL', 'COTE EXEMPLAIRE', 'CONTENU XML'],

@@ -48,9 +48,9 @@
             "subfields" : "add each subfields between [] with comma separator. If yon want to get all subfields, use keyword 'all'"
         }
     },
-    "cote_inc" : {
+    "item_cote" : {
         "bool" : "True",
-        "_comment" : "True si localisation avec cotation automatique"
+        "_comment" : "si bool est True, la cote d'item du fichier ne sera pas utilisée pour sélectionner la holding alma mais simplement ajoutée dans l'item"
     },
     "cote_generique" : {
         "regex" : "\\s?\\(\\+[0-9]+\\)$",
@@ -88,7 +88,13 @@
     },
     "sru_search" : {
         "bool" : "True",
-        "identifier" : ["isbn", "issn"],
-        "_comment" : ""
+        "identifier" : ["standard_number"],
+        "other_search_criteria" : ["title"],
+        "filter_criteria_and" : ["245|a_b"],
+        "filter_criteria_or" : ["264|b"],
+        "_comment" : "valeurs possibles pour identifier : isbn, issn, standard_number",
+        "_comment1" : "if multimatch_found, record not imported and log record unimported only in log_bib_match with multimatch error",
+        "_comment2" : "pour l'instant l'élément 'other_search_criteria' n'est pas implémenté. La recherche sru s'effectue actuellement uniquement sur les identifiants tandis que les éléments renseignés dans 'filter_criteria_and' et 'filter_criteria_or' sont combinés avec l'opérateur AND pour exclure les résultats qui ne correspondent pas",
+        "_comment3" : "critères de vérification pour les chaines de caractères : nb_mots>5 and nb_mots_diff<3) or nb_mots>2 and nb_mots_diff<2) or nb_mots_diff==0 --> chaines considérées comme suffisamment identiques pour ne pas exclure la notice"
     }
 }

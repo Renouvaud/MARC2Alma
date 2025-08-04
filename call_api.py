@@ -7,7 +7,6 @@ import requests # API call
 import xml.etree.ElementTree as etree
 import re # for regex
 
-
 def sru_search(env, search_type, content):
 
     if env == 'prod' :
@@ -18,7 +17,7 @@ def sru_search(env, search_type, content):
     params = {'version': '1.2',
           'operation': 'searchRetrieve',
           'record_schema': 'marcxml',
-          'query': f'alma.{search_type}={content}',
+          'query': f'alma.{search_type}="{content}"',
           'alma.mms_tagSuppressed': 'false'}
     try:
         r = requests.get(url, params=params)

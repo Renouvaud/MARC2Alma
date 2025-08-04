@@ -1,0 +1,1146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <record>
+      <leader>02167nrm a2200457 a 4500</leader>
+      <controlfield tag="007">k|||m|</controlfield>
+      <controlfield tag="008">      s        xx |||        ||||||fre d</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="3" ind2=" ">
+         <subfield code="a">4069</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)807</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Cheval-bâton en peluche</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="2">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">BEA &amp; Poly Ltd, </subfield>
+         <subfield code="c">[date de publication non identifiée]</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">tdf</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">n</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">nr</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 3 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age max : 9 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Nombre de joueur·euse·s : 1</subfield>
+      </datafield>
+      <datafield tag="505" ind1="0" ind2=" ">
+         <subfield code="a">1 tête de cheval en peluche -- 2 poignées en bois -- 2 piles AA, fournies par la Ludothèque -- 1 baton en bois avec roulettes * -- 1 étiquette-photo en A6 laminée -- avec ruban -- * roulettes pas identiques ! -- étiquettes remplacées déc 2023 -- piles remplacées avril 2024</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de rôle</subfield>
+         <subfield code="0">A201</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="905" ind1=" " ind2=" ">
+         <subfield code="a">etoyjcoeur</subfield>
+         <subfield code="b">2508</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">2</subfield>
+         <subfield code="b">Jeux pour le jeu Symbolique</subfield>
+         <subfield code="c">SYM. rôle / imitation</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450035</subfield>
+            <subfield code="h">SYM. rôle / imitation</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>SYM. rôle / imitation</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2017-02-09</arrival_date>
+         <barcode>EY2349</barcode>
+         <fulfillment_note>Vérifier que les piles fonctionnent à chaque prêt et retour, svp ! Aussi l'étiquette-photo doit être présente à chaque emprunt et retour. Facturation en cas de perte</fulfillment_note>
+         <inventory_date>2025-07-03</inventory_date>
+         <inventory_price>16,8</inventory_price>
+         <internal_note_1>Pièces de rechange : Néecessite piles 2x AA, 1,5 V ; Test_Jeux_perso</internal_note_1>
+         <internal_note_3>retour du 27 juin 2025, en très mauvais état : la tête qui bouge, la crinière coupée, un trou sur le côté et les yeux abimés. SD &amp; GB 27 juin 2025  ; Fournisseur : BEA</internal_note_3>
+         <item_location>811450035</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nrm a2200457 a 4500</leader>
+      <controlfield tag="007">k|||m|</controlfield>
+      <controlfield tag="008">      s2009    xx |||        ||||||mul d</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="3" ind2=" ">
+         <subfield code="a">3070900051195</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)832</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1=" " ind2=" ">
+         <subfield code="a">fre</subfield>
+         <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Piou Piou</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="2">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Djéco, </subfield>
+         <subfield code="c">2009</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu dans une boîte</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">tdf</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">n</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">nr</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 5 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Nombre de joueur·euse·s : 2-5</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Durée de la partie : 00:10</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Mécanique : Collecte/ion-Combinaison-Famille</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Interaction : Compétition</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Thème : Animaux</subfield>
+      </datafield>
+      <datafield tag="505" ind1="0" ind2=" ">
+         <subfield code="a">1 boîte du jeu avec tiroir magenta -- 47 cartes, dont : -- - 6 renards, - -- - 15 coqs, -- - 15 poules, - -- - 11 nids -- 18 oeufs / poussins -- règles du jeu en FR, DE, IT et EN (4 cartes recto-verso)</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Panique dans le poulailler ! - Le gagnant est le premier qui parvient à avoir 3 poussins. Mais pour pondre un oeuf, il faut présenter trois cartes de un coq, une poule et un nid. Pour faire naître un poussin, il faut présenter 2 cartes poule tout en imitant le cri. Mais gare au renard qui cherche à voler les oeufs !</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Enfants</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu stratégie</subfield>
+         <subfield code="0">A406</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Thierry, Chapeau</subfield>
+         <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Frédéric, Pillot</subfield>
+         <subfield code="4">ill</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">4</subfield>
+         <subfield code="b">Jeux de Règles</subfield>
+         <subfield code="c">REG. réflexion &amp; stratégie</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450039</subfield>
+            <subfield code="h">REG. réflexion &amp; stratégie</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>REG. réflexion &amp; stratégie</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2017-03-08</arrival_date>
+         <barcode>EY2374</barcode>
+         <inventory_date>2025-06-16</inventory_date>
+         <inventory_price>9,9</inventory_price>
+         <internal_note_3>état à vérifier, remplacé en 2025, garder pour animations ? ; Fournisseur : L'épée à 2 nains</internal_note_3>
+         <item_location>811450039</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nrm a2200457 a 4500</leader>
+      <controlfield tag="007">k|||m|</controlfield>
+      <controlfield tag="008">      s        xx |||        ||||||fre d</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="3" ind2=" ">
+         <subfield code="a">4004943562003</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)964</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">New bobby car rouge</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="2">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">BIG Spielwarenfabrik, </subfield>
+         <subfield code="c">[date de publication non identifiée]</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">tdf</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">n</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">nr</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 12 mois</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age max : 5 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Poids : max 25 kg</subfield>
+      </datafield>
+      <datafield tag="505" ind1="0" ind2=" ">
+         <subfield code="a">Trotteur en forme de voiture -- Pneus et jantes (rouge &amp; blanc) -- Couvercle de réservoir -- Avertissements de sécurité (2 fiches A5, laminées)</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu moteur</subfield>
+         <subfield code="0">A106</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">1</subfield>
+         <subfield code="b">Jeux pour le jeu d'Exercice</subfield>
+         <subfield code="c">EX. motricité</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450034</subfield>
+            <subfield code="h">EX. motricité</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>EX. motricité</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2017-12-14</arrival_date>
+         <barcode>EY2502</barcode>
+         <fulfillment_note>Convient à un enfant de max 25 kg. Remorque disponible séparément (jeu 2503)</fulfillment_note>
+         <inventory_date>2025-07-03</inventory_date>
+         <inventory_price>89,95</inventory_price>
+         <internal_note_2>2x A5 laminées à rendre avec le jouet !</internal_note_2>
+         <internal_note_3>Mme Soler a rapporté l'étiquette du jeu le 11 juin 2025, perte pas notée sous membre/jeu ! A scanner et remettre en place lors du prochain retour. GB 16 juin 2025 ; Fournisseur : Jouets Franz Carl Weber</internal_note_3>
+         <item_location>811450034</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nrm a2200457 a 4500</leader>
+      <controlfield tag="007">k|||m|</controlfield>
+      <controlfield tag="008">      s2003    xx |||        ||||||fre d</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="3" ind2=" ">
+         <subfield code="a">4005556128525</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1308</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Puzzle : Le pays des ours blancs</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="2">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Ravensburger, </subfield>
+         <subfield code="c">2003</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">tdf</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">n</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">nr</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 8 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Nombre de joueur·euse·s : 1</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Thème : Pôles</subfield>
+      </datafield>
+      <datafield tag="505" ind1="0" ind2=" ">
+         <subfield code="a">carton du jeu, plastifié -- 252 pièces de puzzle -- 1 sachet plastique -- Utiliser une brosse à habits pour nettoyer les pièces en velours.</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu d'agencement</subfield>
+         <subfield code="0">A302</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">3</subfield>
+         <subfield code="b">Jeux d'Assemblage</subfield>
+         <subfield code="c">ASS. agencement / puzzle</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450038</subfield>
+            <subfield code="h">ASS. agencement / puzzle</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>ASS. agencement / puzzle</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2020-01-09</arrival_date>
+         <barcode>EY2841</barcode>
+         <inventory_date>2025-06-19</inventory_date>
+         <internal_note_3>Créer une étiquette 'puzzle avec éléments tactiles' juin 2025 ; Fournisseur : don </internal_note_3>
+         <item_location>811450038</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nrm a2200457 a 4500</leader>
+      <controlfield tag="007">k|||m|</controlfield>
+      <controlfield tag="008">      s2022    xx |||        ||||||mul d</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="3" ind2=" ">
+         <subfield code="a">3770012737078</subfield>
+      </datafield>
+      <datafield tag="028" ind1="5" ind2="2">
+         <subfield code="a">KE02 Oppi</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1796</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1=" " ind2=" ">
+         <subfield code="a">fre</subfield>
+         <subfield code="a">ger</subfield>
+         <subfield code="a">ita</subfield>
+         <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Piks set éducatif, 128 pièces &amp; cartes</subfield>
+      </datafield>
+      <datafield tag="246" ind1=" " ind2="3">
+         <subfield code="a">Piks Education</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="2">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Oppi, </subfield>
+         <subfield code="c">2022</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu dans une boîte</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">tdf</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">n</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">nr</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 6 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Nombre de joueur·euse·s : 1-4</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Jeu adapté aux troubles DYS : Motricité</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Poids : 3,85 kg</subfield>
+      </datafield>
+      <datafield tag="505" ind1="0" ind2=" ">
+         <subfield code="a">caisse en plastique &amp; couvercle -- 32 planches en bois -- 32 cônes bleu -- 32 cônes rouge -- 32 cônes jaune -- 2 sacs en coton écru 'Piks' -- 2 boîtes de 24 cartes, -- 'Get Smart' -- &amp; 'Get Creative' -- 1 règle de jeu, livret plastifié </subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Set polyvalent pour occuper 1 ou plusieurs enfants et adultes pendant des heures ! - Adapté au jeu libre : La meilleure règle est celle de ne pas en avoir ! Construis la création de ton choix, mais rappelle-toi : il te faudra toujours au moins trois cônes pour qu'une planchette soit stable par-dessus. - jeu de construction - Mais aussi au jeu figuratif : Avec Piks, tu peux aussi créer des amis avec qui jouer. Utilise les cônes tels des yeux ou des pattes, le plateau comme un corps et crée tout type de personnages : crocodile, rhino, etc... Sers-toi des cartes créatives pour t'aider. - D'autres options : - - Construire la tour de piks : Crée la tour la plus haute sans faire tomber aucune pièce ! Trois niveaux de difficultés. Le premier : utilise les mêmes types de cônes par étage. Le deuxième : utilise au moins deux types de cônes différents par étage. Le troisième : utilise les trois types de cônes possibles par étages. - jeu de construction - - Bataille de Piks : De 2 à plusieurs joueurs, défie l'équilibre avec tes adversaires ! Chaque joueur doit placer un étage à tour de rôle (3 cônes et 1 plateau). Le premier qui fait tomber la structure a perdu. Le dernier joueur restant est le gagnant.</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Famille</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de construction</subfield>
+         <subfield code="0">A301</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Relations spatiales</subfield>
+         <subfield code="0">B408</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Concentration</subfield>
+         <subfield code="0">C411</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">3</subfield>
+         <subfield code="b">Jeux d'Assemblage</subfield>
+         <subfield code="c">ASS. construction</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450037</subfield>
+            <subfield code="h">ASS. construction</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>ASS. construction</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2025-06-16</arrival_date>
+         <barcode>EY3320</barcode>
+         <inventory_date>2025-07-03</inventory_date>
+         <inventory_price>119</inventory_price>
+         <internal_note_2>Conseillé dès 6 ans. Piks est conçu pour le développement de l’attention et de la concentration des enfants. Il a été pensé en collaboration avec des spécialistes de l’éducation : pédopsychiatres, ergothérapeutes et professeurs des écoles</internal_note_2>
+         <internal_note_3>Fournisseur : QoQa</internal_note_3>
+         <item_location>811450037</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nrm a2200457 a 4500</leader>
+      <controlfield tag="007">k|||m|</controlfield>
+      <controlfield tag="008">      s        xx |||        ||||||fre d</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1843</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Cache-yeux, set de 6</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="2">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">[éditeur non identifié], </subfield>
+         <subfield code="c">[date de publication non identifiée]</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">tdf</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">n</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">nr</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 3 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Nombre de joueur·euse·s : 1-6</subfield>
+      </datafield>
+      <datafield tag="505" ind1="0" ind2=" ">
+         <subfield code="a">6 cache-yeux pour enfants -- 1 filet de linge, taille S -- 1 étiquette-photo, en A5 -- Suggestions de jeux, en A5 ? -- ENCORE à préparer !!</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu sensoriel sonore</subfield>
+         <subfield code="0">A101</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Perception auditive</subfield>
+         <subfield code="0">C101</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Perception tactile</subfield>
+         <subfield code="0">C103</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Perception olfactive</subfield>
+         <subfield code="0">C104</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Perception gustative</subfield>
+         <subfield code="0">C105</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Concentration</subfield>
+         <subfield code="0">C411</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu individuel et coopératif</subfield>
+         <subfield code="0">D104</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">1</subfield>
+         <subfield code="b">Jouets pour le jeu d'Exercice</subfield>
+         <subfield code="c">EX. éveil sensoriel</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450034</subfield>
+            <subfield code="h">EX. éveil sensoriel</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>EX. éveil sensoriel</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2024-03-01</arrival_date>
+         <barcode>EY3366</barcode>
+         <inventory_date>2025-06-15</inventory_date>
+         <inventory_price>25</inventory_price>
+         <item_location>811450034</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nrm a2200457 a 4500</leader>
+      <controlfield tag="007">k|||m|</controlfield>
+      <controlfield tag="008">      s2024    xx |||        ||||||fre d</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="3" ind2=" ">
+         <subfield code="a">3558380116684</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1918</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1=" " ind2=" ">
+         <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Harmonies</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="2">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Libellud, </subfield>
+         <subfield code="c">2024</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu dans une boîte</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">tdf</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">n</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">nr</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 10 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Nombre de joueur·euse·s : 1-4</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Durée de la partie : 00:30</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Mécanique : Placement - Pose d’ouvriers</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Interaction : Compétition</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Thème : Animaux</subfield>
+      </datafield>
+      <datafield tag="505" ind1="0" ind2=" ">
+         <subfield code="a">boîte du jeu, plastifiée -- 1 sac -- 1 plateau central -- 4 plateaux personnels -- 4 cartes Aide de jeu (laminées) -- 120 jetons, dont : -- - 23 x bleu, 23 x gris -- - 21 x marron, 19 vert -- - 19 x jaune, 15 x rouge -- 66 cubes Animal -- 4 cubes Esprit de la nature -- 32 cartes Animal -- 10 cartes Esprit de la nature -- 1 bloc de score (5-8 feuilles) -- 1 modèle fiche de score ** -- 1 livret de règles, plastifié -- ** à copier selon vos besoins</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Créez votre propre paysage et vos propres habitats pour accueillir les animaux. - Dans Harmonies, construisez un paysage sur votre plateau en posant des séries de 3 pions et faites apparaitre des forêts, des montagnes, des champs et des villes. - Sélectionnez ensuite les bonnes cartes Animal et reproduisez leur habitats pour qu’ils viennent peupler votre région. - Pour gagner le plus de points et remporter la partie, incorporez judicieusement les habitats dans vos paysages et installez-y le plus grand nombre d'animaux possible. - Qui obtiendra la plus belle faune ?</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Découverte</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu stratégie</subfield>
+         <subfield code="0">A406</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu individuel et compétitif</subfield>
+         <subfield code="0">D103</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Benvenuto, Johan</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">da Silva, Maëva</subfield>
+         <subfield code="4">ill</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2="2">
+         <subfield code="3">Vidéo</subfield>
+         <subfield code="u">https://www.youtube.com/watch?v=7VIU4vw3kSw</subfield>
+         <subfield code="z">Règles du jeu</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">4</subfield>
+         <subfield code="b">Jeux de Règles</subfield>
+         <subfield code="c">REG. réflexion &amp; stratégie</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450039</subfield>
+            <subfield code="h">REG. réflexion &amp; stratégie</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>REG. réflexion &amp; stratégie</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2024-10-10</arrival_date>
+         <barcode>EY3438</barcode>
+         <inventory_date>2025-07-03</inventory_date>
+         <inventory_price>43,9</inventory_price>
+         <internal_note_3>Fournisseur : 400coups</internal_note_3>
+         <item_location>811450039</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nrm a2200457 a 4500</leader>
+      <controlfield tag="007">k|||m|</controlfield>
+      <controlfield tag="008">      s2023    xx |||        ||||||mul d</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="3" ind2=" ">
+         <subfield code="a">3070900099623</subfield>
+      </datafield>
+      <datafield tag="028" ind1="5" ind2="2">
+         <subfield code="a">DJ09962 Djeco</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1923</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1=" " ind2=" ">
+         <subfield code="a">fre</subfield>
+         <subfield code="a">ger</subfield>
+         <subfield code="a">ita</subfield>
+         <subfield code="a">eng</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Magic Fabuloso Magus</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="2">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Djeco, </subfield>
+         <subfield code="c">2023</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu dans une boîte</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">tdf</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">n</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">nr</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 6 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Nombre de joueur·euse·s : 1</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Durée de la partie : 00:30</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Interaction : Solitaire</subfield>
+      </datafield>
+      <datafield tag="505" ind1="0" ind2=" ">
+         <subfield code="a">1 boîte Magic Fabuloso Magus &amp; couvercle -- 1 étui en carton pour fermer la boîte et indiquer contenu en images -- 2 livrets de 20 tours de magie (2x 5 langues), plastifiés -- Matériel du magicien: -- 1 sac chaudron -- 2x  2 foulards noués (orange &amp; bleu) -- 8 crayons de couleur &amp; 1 étui en carton -- 1 livre magique Mixturis -- 2 ficelles (orange) -- 2 médailles -- 2 scarabées -- 1 fiole de potion magique -- 2 papiers pliés Oiseau -- 4 morceaux de l'image Oiseau -- 11 pions carrés Chouette -- 9 pions carrés Animaux différents -- 1 papier plié Chouette -- 1 carte Scarabée -- 2 cartes Roi -- 2 cartes recto verso identique -- 1 enveloppe pur les cartes -- 1 clé magique -- 1 étui tour -- 1 princesse -- 4 attaches en métal</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Coffret d'accessoires de magie pour réaliser 20 tours. - Le livret inclut des liens et des codes secrets pour accéder aux explications d'un magicien professionnel. </subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Famille</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu d'adresse</subfield>
+         <subfield code="0">A404</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Reproduction de rôles</subfield>
+         <subfield code="0">C202</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Dextérité</subfield>
+         <subfield code="0">C403</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Fau, Marion</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Gavel, Elise</subfield>
+         <subfield code="4">ill</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Gilet, Christophe</subfield>
+         <subfield code="4">ill</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Keraval, Gwen</subfield>
+         <subfield code="4">ill</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Leboeuf, Arthur</subfield>
+         <subfield code="4">ill</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Mourrain, Sébastien</subfield>
+         <subfield code="4">ill</subfield>
+      </datafield>
+      <datafield tag="856" ind1="4" ind2="2">
+         <subfield code="3">Vidéo</subfield>
+         <subfield code="u">https://www.djeco.com/magie</subfield>
+         <subfield code="z">Règles du jeu</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">4</subfield>
+         <subfield code="b">Jeux de Règles</subfield>
+         <subfield code="c">REG. adresse</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450040</subfield>
+            <subfield code="h">REG. adresse</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>REG. adresse</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2025-07-03</arrival_date>
+         <barcode>EY3443</barcode>
+         <inventory_date>2025-07-03</inventory_date>
+         <inventory_price>58,9</inventory_price>
+         <internal_note_3>Fournisseur : 400coups</internal_note_3>
+         <item_location>811450040</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nrm a2200457 a 4500</leader>
+      <controlfield tag="007">k|||m|</controlfield>
+      <controlfield tag="008">      s2024    xx |||        ||||||mul d</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="3" ind2=" ">
+         <subfield code="a">5414301525639</subfield>
+      </datafield>
+      <datafield tag="028" ind1="5" ind2="2">
+         <subfield code="a">SG 039 Smart Games</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1935</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1=" " ind2=" ">
+         <subfield code="a">fre</subfield>
+         <subfield code="a">ger</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">5 Little Birds</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="2">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Smart Games, </subfield>
+         <subfield code="c">2024</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu dans une boîte</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">tdf</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">n</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">nr</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 5 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Nombre de joueur·euse·s : 1</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Durée de la partie : 00:20</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Interaction : Solitaire</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Thème : Animaux</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Jeu adapté aux troubles DYS : Logique</subfield>
+      </datafield>
+      <datafield tag="505" ind1="0" ind2=" ">
+         <subfield code="a">boîte du jeu, plastifiée -- 5 oiseaux -- 1 arbre en bois -- 1 pied en plastique verte -- 1 sachet plastique -- 1 livret de 60 défis -- 1 dépliant multilingue, Règles du jeu</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Chaque défi indique des contraintes de pose pour les oiseaux. L'objectif est de réussir à placer tous les oiseaux dans l'arbre et dans le bon sens afin de respecter toutes les règles de pose du défi.</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Enfants</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu mathématique</subfield>
+         <subfield code="0">A409</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Peeters, Raf</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="700" ind1="1" ind2=" ">
+         <subfield code="a">Bloemmen, Hans</subfield>
+         <subfield code="4">ill</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">4</subfield>
+         <subfield code="b">Jeux de Règles</subfield>
+         <subfield code="c">REG. logique </subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450044</subfield>
+            <subfield code="h">REG. logique </subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>REG. logique </alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2025-07-03</arrival_date>
+         <barcode>EY3455</barcode>
+         <inventory_date>2025-07-03</inventory_date>
+         <inventory_price>29,9</inventory_price>
+         <internal_note_3>Fournisseur : 400coups</internal_note_3>
+         <item_location>811450044</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nrm a2200457 a 4500</leader>
+      <controlfield tag="007">k|||m|</controlfield>
+      <controlfield tag="008">      s2020    xx |||        ||||||fre d</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="3" ind2=" ">
+         <subfield code="a">6943478029743</subfield>
+      </datafield>
+      <datafield tag="028" ind1="5" ind2="2">
+         <subfield code="a">E3408 Hape</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1983</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Chez la vétérinaire Furry Friend</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="2">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Hape, </subfield>
+         <subfield code="c">2020</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">tdf</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">n</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">nr</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 3 ans</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Nombre de joueur·euse·s : 1</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Thème : Animaux</subfield>
+      </datafield>
+      <datafield tag="505" ind1="0" ind2=" ">
+         <subfield code="a">maison à construire -- inventaire à détailler -- fabriquer housse de transport (Nelly)</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Amuse-toi avec cette clinique vétérinaire et tous les accessoires utiles pour prendre soin du chien et du chat de la vétérinaire. </subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Enfants</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de mise en scène</subfield>
+         <subfield code="0">A202</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">2</subfield>
+         <subfield code="b">Jeux pour le jeu Symbolique</subfield>
+         <subfield code="c">SYM. mise en scène / imagination</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450036</subfield>
+            <subfield code="h">SYM. mise en scène / imagination</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>SYM. mise en scène / imagination</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2025-07-03</arrival_date>
+         <barcode>EY3500</barcode>
+         <inventory_date>2025-07-03</inventory_date>
+         <inventory_price>58,9</inventory_price>
+         <item_location>811450036</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+</collection>

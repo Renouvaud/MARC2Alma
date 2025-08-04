@@ -8,7 +8,7 @@
             "_comment" : "choose Alma institution : 'sp' for Sciences et Patrimoines or 'elp' for Ecoles et Lecture Publique"
     },    
     "file_param" : {
-            "XMLfile_name" : "REQ_test_interm_16juin25_Fichier-sortie-Talaxie-pour-NP_numloc_20250630_200l",
+            "XMLfile_name" : "REQ_Export_final_jeux_details_Part1_1429ln_SORTIE-TALAXIE_Jeux_10l_NAN_OK_20250804_1rec",
             "XMLfile_path" : "./xml_files/etoy",
             "_comment" : "if file in execution folder don't change value of XMLfile_path, else give path : for example 'C:/Users/username/Documents'"
     },
@@ -37,10 +37,6 @@
             "update_method" : "add_new_field",
             "subfields" : false
         },
-        "035" : {
-            "update_method" : "add_new_field",
-            "subfields" : false
-        },
         "500" : {
             "update_method" : "add_new_field",
             "subfields" : false
@@ -63,6 +59,10 @@
             "update_method2" : "3. check in every existing field if subfield exist before to add, with same example as before : will only add '$$2 test' in existing 985",
             "subfields" : "add each subfields between [] with comma separator. If yon want to get all subfields, use keyword 'all'"
         }
+    },
+    "item_cote" : {
+        "bool" : "True",
+        "_comment" : "si bool est True, la cote d'item du fichier ne sera pas utilisée pour sélectionner la holding alma mais simplement ajoutée dans l'item"
     },
     "cote_generique" : {
         "regex" : "",
@@ -99,8 +99,14 @@
         }
     },
     "sru_search" : {
-        "bool" : "False",
-        "identifier" : ["isbn", "issn"],
-        "_comment" : ""
+        "bool" : "True",
+        "identifier" : ["standard_number"],
+        "other_search_criteria" : ["title"],
+        "filter_criteria_and" : ["245|a_b"],
+        "filter_criteria_or" : ["264|b"],
+        "_comment" : "valeurs possibles pour identifier : isbn, issn, standard_number",
+        "_comment1" : "if multimatch_found, record not imported and log record unimported only in log_bib_match with multimatch error",
+        "_comment2" : "pour l'instant l'élément 'other_search_criteria' n'est pas implémenté. La recherche sru s'effectue actuellement uniquement sur les identifiants tandis que les éléments renseignés dans 'filter_criteria_and' et 'filter_criteria_or' sont combinés avec l'opérateur AND pour exclure les résultats qui ne correspondent pas",
+        "_comment3" : "critères de vérification pour les chaines de caractères : nb_mots>5 and nb_mots_diff<3) or nb_mots>2 and nb_mots_diff<2) or nb_mots_diff==0 --> chaines considérées comme suffisamment identiques pour ne pas exclure la notice"
     }
 }

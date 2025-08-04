@@ -38,7 +38,7 @@ if __name__ == "__main__":
     # FIRST : copy general_params_default file and update informations     #
     # SECOND : check API_Keys file --> renamme API Key to use              #
     # THIRD : update here name of general params file                      #
-    gen_param_file = "general_params_crissier"
+    gen_param_file = "general_params_ludoetoy"
     ########################################################################                   
     
     # Import params
@@ -128,6 +128,7 @@ if __name__ == "__main__":
         bib_match = {
             'exist_nz' : False,
             'exist_iz' : False,
+            'sru' : [],
             'api_error' : False,
             'nz_id' : "Empty",
             'iz_id' : "Empty",
@@ -142,7 +143,9 @@ if __name__ == "__main__":
         # sru search if no match and sru param of json file is set True 
         if not bib_match['exist_nz'] and gen_param['sru_search']['bool']=='True' :
             id_list = gen_param['sru_search']['identifier']
-            bib_sru(record, id_list, el035, api_key_iz, log_bib_match, env, bib_match)
+            filter_and = gen_param['sru_search']['filter_criteria_and']
+            filter_or = gen_param['sru_search']['filter_criteria_or']
+            bib_sru(record, id_list, el035, api_key_iz, log_bib_match, env, bib_match, filter_and, filter_or)
 
             # again pass if error
             if bib_match['api_error'] :
@@ -187,7 +190,7 @@ if __name__ == "__main__":
                 ## import pdb; pdb.set_trace()
                 if update_iz_record[2] == 200 :
                     process_list['raccrochage iz'] = 'done'
-                    save_log(log_bib, [process_list, nz_id, iz_id, el035, log_update_f, update_iz_record[3]])
+                    save_log(log_bib, [process_list, bib_match['sru'], nz_id, iz_id, el035, log_update_f, update_iz_record[3]])
                 else :
                     process_list['raccrochage iz'] = 'error'
                     save_log(log_bib_unimported, [process_list, update_iz_record[0], el035, nz_id, iz_id, update_iz_record[2], update_iz_record[3]])
@@ -228,7 +231,7 @@ if __name__ == "__main__":
                 iz_r_with_locals = update_bib(api_key_iz, r_get_format, iz_id, rule = iz_rule)
                 if iz_r_with_locals[2] == 200:
                     process_list['ajout champs locaux'] = 'done'
-                    save_log(log_bib, [process_list, nz_id, iz_id, el035, log_update_f, iz_r_with_locals[3]])
+                    save_log(log_bib, [process_list, bib_match['sru'], nz_id, iz_id, el035, log_update_f, iz_r_with_locals[3]])
                 else:
                     process_list['ajout champs locaux'] = 'error'
                     save_log(log_bib_unimported, [process_list, post_iz_record[0], el035, nz_id, iz_id, post_iz_record[2], post_iz_record[3]])
@@ -256,7 +259,7 @@ if __name__ == "__main__":
             iz_r_with_locals = update_bib(api_key_iz, r_format, iz_id, rule = iz_rule)
             if iz_r_with_locals[2] == 200:
                 process_list['ajout champs locaux'] = 'done'
-                save_log(log_bib, [process_list, nz_id, iz_id, el035, "", iz_r_with_locals[3]])
+                save_log(log_bib, [process_list, bib_match['sru'], nz_id, iz_id, el035, "", iz_r_with_locals[3]])
             else :
                 process_list['ajout champs locaux'] = 'error'
                 save_log(log_bib_unimported, [process_list, iz_r_with_locals[0], el035, nz_id, iz_id, iz_r_with_locals[2], iz_r_with_locals[3]])

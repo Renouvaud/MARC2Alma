@@ -1,0 +1,1151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <record>
+      <leader>02167nmm a2200457 a 4500</leader>
+      <controlfield tag="006">m&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;|q&lt;diese&gt;&lt;diese&gt;g&lt;diese&gt;|&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;</controlfield>
+      <controlfield tag="007">c|||||||||||||</controlfield>
+      <controlfield tag="008">      s2022    xx     ||  | |      mul||</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice valable pour toutes les versions (consoles) du jeu !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="8" ind2=" ">
+         <subfield code="a">3760328370762</subfield>
+         <subfield code="q">Nintendo Switch</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1861</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Mask of Mists</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="1">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Nintendo, </subfield>
+         <subfield code="c">2022</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu vidéo dans 1 boîtier</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">cod</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">c</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">cb</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Vérifiez le boîtier du jeu pour connaître les configurations requises.</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Consultez le détail des exemplaires pour savoir quelles versions du jeu (console) sont disponibles dans votre bibliothèque.</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">L'Archimage a disparu - à toi de partir sur ses traces au coeur d'une aventure magique et pleine de puzzles, d'ennemis et de dangers !</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 10 ans</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de règles virtuel</subfield>
+         <subfield code="0">A412</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="655" ind1=" " ind2="7">
+         <subfield code="a">Jeux vidéo</subfield>
+         <subfield code="2">ram</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Red Art Games, nan</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">5</subfield>
+         <subfield code="b">Jeux Virtuels</subfield>
+         <subfield code="c">VIR. jeu pour console</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450045</subfield>
+            <subfield code="h">VIR. jeu pour console</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>VIR. jeu pour console</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2024-06-05</arrival_date>
+         <barcode>EY3384</barcode>
+         <description>boîtier Switch -- cartouche Switch: -- 'Mask of Mists' -- 1 livret aide du jeu, en EN -- A lire : précautions / avertissement / -- à l'intérieur de la couverture</description>
+         <inventory_date>2024-06-19</inventory_date>
+         <inventory_price>33,95</inventory_price>
+         <internal_note_3>Fournisseur : FNAC</internal_note_3>
+         <item_location>811450045</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nmm a2200457 a 4500</leader>
+      <controlfield tag="006">m&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;|q&lt;diese&gt;&lt;diese&gt;g&lt;diese&gt;|&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;</controlfield>
+      <controlfield tag="007">c|||||||||||||</controlfield>
+      <controlfield tag="008">      s2022    xx     ||  | |      mul||</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice valable pour toutes les versions (consoles) du jeu !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="8" ind2=" ">
+         <subfield code="a">5060968300449</subfield>
+         <subfield code="q">Nintendo Switch</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1895</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1="1" ind2=" ">
+         <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Miraculous - Rise of the Sphinx</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="1">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Nintendo, </subfield>
+         <subfield code="c">2022</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu vidéo dans 1 boîtier</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">cod</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">c</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">cb</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Vérifiez le boîtier du jeu pour connaître les configurations requises.</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Consultez le détail des exemplaires pour savoir quelles versions du jeu (console) sont disponibles dans votre bibliothèque.</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Les superhéros Ladybug et Chat Noir vont devoir déjouer les plans maléfiques du mégavilain Papillon. - Plonge dans leur monde Miraculous et vis une aventure épique ! Affronte des méchants comme le Gamer et Papa Garou ! - Faites équipe et purifiez les akumas ensemble !</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 7 ans</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de règles virtuel</subfield>
+         <subfield code="0">A412</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="655" ind1=" " ind2="7">
+         <subfield code="a">Jeux vidéo</subfield>
+         <subfield code="2">ram</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Game Mill Entertainment, nan</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">5</subfield>
+         <subfield code="b">Jeux Virtuels</subfield>
+         <subfield code="c">VIR. jeu pour console</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450045</subfield>
+            <subfield code="h">VIR. jeu pour console</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>VIR. jeu pour console</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2024-06-05</arrival_date>
+         <barcode>EY3391</barcode>
+         <description>boîtier Switch -- cartouche Switch: -- 'Miraculous : Rise of the Sphinx' -- A lire : précautions / avertissement / -- à l'intérieur de la couverture</description>
+         <inventory_date>2024-08-27</inventory_date>
+         <inventory_price>53,95</inventory_price>
+         <internal_note_3>Fournisseur : FNAC</internal_note_3>
+         <item_location>811450045</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nmm a2200457 a 4500</leader>
+      <controlfield tag="006">m&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;|q&lt;diese&gt;&lt;diese&gt;g&lt;diese&gt;|&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;</controlfield>
+      <controlfield tag="007">c|||||||||||||</controlfield>
+      <controlfield tag="008">      s2017    xx     ||  | |      mul||</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice valable pour toutes les versions (consoles) du jeu !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="8" ind2=" ">
+         <subfield code="a">045496420888</subfield>
+         <subfield code="q">Nintendo Switch</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1876</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Super Mario Odyssey</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="1">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Nintendo, </subfield>
+         <subfield code="c">2017</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu vidéo dans 1 boîtier</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">cod</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">c</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">cb</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Vérifiez le boîtier du jeu pour connaître les configurations requises.</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Consultez le détail des exemplaires pour savoir quelles versions du jeu (console) sont disponibles dans votre bibliothèque.</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Une aventure Super Mario qui décoiffe ! - Bowser a kidnappé la princesse Peach et compte l'épouser ! - Heureusement que Mario et son nouvel ami Cappy sont là pour l'empêcher ! - A travers des ruines mystérieuses, un paysage urbain en effervescence, une forêt peuplée de machines et d'autres contrées encore, vivez une aventure folle ! - Utilise ton chapeau pour vaincre les méchants, sauter plus haut et contrôler tes ennemis. </subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 7 ans</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de règles virtuel</subfield>
+         <subfield code="0">A412</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="655" ind1=" " ind2="7">
+         <subfield code="a">Jeux vidéo</subfield>
+         <subfield code="2">ram</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Nintendo, nan</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">5</subfield>
+         <subfield code="b">Jeux Virtuels</subfield>
+         <subfield code="c">VIR. jeu pour console</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450045</subfield>
+            <subfield code="h">VIR. jeu pour console</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>VIR. jeu pour console</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2024-06-05</arrival_date>
+         <barcode>EY3399</barcode>
+         <description>boîtier Switch -- cartouche Switch: -- 'Super Mario Odyssey' -- A lire : précautions / avertissement / -- en A6 laminée, fixée dans la boîte</description>
+         <inventory_date>2024-06-05</inventory_date>
+         <inventory_price>64,95</inventory_price>
+         <internal_note_3>Fournisseur : FNAC</internal_note_3>
+         <item_location>811450045</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nmm a2200457 a 4500</leader>
+      <controlfield tag="006">m&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;|q&lt;diese&gt;&lt;diese&gt;g&lt;diese&gt;|&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;</controlfield>
+      <controlfield tag="007">c|||||||||||||</controlfield>
+      <controlfield tag="008">      s2021    xx     ||  | |      mul||</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice valable pour toutes les versions (consoles) du jeu !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="8" ind2=" ">
+         <subfield code="a">3391892015911</subfield>
+         <subfield code="q">Nintendo Switch</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1887</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1="1" ind2=" ">
+         <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Dragonball Z - Kakarot + A New Power Awakens</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="1">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Nintendo, </subfield>
+         <subfield code="c">2021</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu vidéo dans 1 boîtier</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">cod</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">c</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">cb</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Vérifiez le boîtier du jeu pour connaître les configurations requises.</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Consultez le détail des exemplaires pour savoir quelles versions du jeu (console) sont disponibles dans votre bibliothèque.</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">La saga Dragon BAll Z en mode jeu d'action-RPG et d'aventure. - Incarne des guerriers Z, découvre pleins de surprises et revis la saga de ses débuts jusqu'au combat final. </subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 12 ans</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu d'action-réaction virtuel</subfield>
+         <subfield code="0">A108</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de règles virtuel</subfield>
+         <subfield code="0">A412</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="655" ind1=" " ind2="7">
+         <subfield code="a">Jeux vidéo</subfield>
+         <subfield code="2">ram</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Bandai Namco Entertainment, nan</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Bird, Studio</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Shueisha, nan</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Toei, Animation</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">5</subfield>
+         <subfield code="b">Jeux Virtuels</subfield>
+         <subfield code="c">VIR. jeu pour console</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450045</subfield>
+            <subfield code="h">VIR. jeu pour console</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>VIR. jeu pour console</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2024-08-30</arrival_date>
+         <barcode>EY3409</barcode>
+         <description>boîtier Switch -- cartouche Switch: -- 'Dragonbal Z Kakarot' -- Lire précautions et avertissement -- à l'intérieur de la couverture</description>
+         <inventory_date>2024-09-19</inventory_date>
+         <inventory_price>64,95</inventory_price>
+         <internal_note_3>Fournisseur : FNAC</internal_note_3>
+         <item_location>811450045</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nmm a2200457 a 4500</leader>
+      <controlfield tag="006">m&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;|q&lt;diese&gt;&lt;diese&gt;g&lt;diese&gt;|&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;</controlfield>
+      <controlfield tag="007">c|||||||||||||</controlfield>
+      <controlfield tag="008">      s2018    xx     ||  | |      mul||</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice valable pour toutes les versions (consoles) du jeu !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="8" ind2=" ">
+         <subfield code="a">5060146465557</subfield>
+         <subfield code="q">Nintendo Switch</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1892</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1="1" ind2=" ">
+         <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Hello Neighbour</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="1">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Nintendo, </subfield>
+         <subfield code="c">2018</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu vidéo dans 1 boîtier</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">cod</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">c</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">cb</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Vérifiez le boîtier du jeu pour connaître les configurations requises.</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Consultez le détail des exemplaires pour savoir quelles versions du jeu (console) sont disponibles dans votre bibliothèque.</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Un jeu d'infiltration-horreur oÙ il faut vous faufiler dans la maison de votre voisin pour savoir quels secrets se cachent dans sa cave. - De nombreux éléments interactifs et un jeu qui apprend en fonction de vos actions.</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 12 ans</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de règles virtuel</subfield>
+         <subfield code="0">A412</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="655" ind1=" " ind2="7">
+         <subfield code="a">Jeux vidéo</subfield>
+         <subfield code="2">ram</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Dynamic, Pixels</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Gearbox, Publishing</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">tinyBuild, nan</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">5</subfield>
+         <subfield code="b">Jeux Virtuels</subfield>
+         <subfield code="c">VIR. jeu pour console</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450045</subfield>
+            <subfield code="h">VIR. jeu pour console</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>VIR. jeu pour console</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2024-08-30</arrival_date>
+         <barcode>EY3414</barcode>
+         <description>boîtier Switch -- cartouche Switch: -- 'Hello Neighbour' -- Lire précautions et avertissement -- à l'intérieur de la couverture</description>
+         <fulfillment_note>Attention : Plutôt conseillé dès 12 ans ! Ne pas se fier à l'indication PEGI de 7+ ans.</fulfillment_note>
+         <inventory_date>2025-03-05</inventory_date>
+         <inventory_price>54,95</inventory_price>
+         <internal_note_3>Fournisseur : FNAC</internal_note_3>
+         <item_location>811450045</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nmm a2200457 a 4500</leader>
+      <controlfield tag="006">m&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;|q&lt;diese&gt;&lt;diese&gt;g&lt;diese&gt;|&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;</controlfield>
+      <controlfield tag="007">c|||||||||||||</controlfield>
+      <controlfield tag="008">      s2022    xx     ||  | |      mul||</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice valable pour toutes les versions (consoles) du jeu !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="8" ind2=" ">
+         <subfield code="a">045496429720</subfield>
+         <subfield code="q">Nintendo Switch</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1907</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1="1" ind2=" ">
+         <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Mario Strikers Battle League Football</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="1">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Nintendo, </subfield>
+         <subfield code="c">2022</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu vidéo dans 1 boîtier</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">cod</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">c</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">cb</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Vérifiez le boîtier du jeu pour connaître les configurations requises.</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Consultez le détail des exemplaires pour savoir quelles versions du jeu (console) sont disponibles dans votre bibliothèque.</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Jouez jusqu'à 4 contre 4 aux matchs de foot où tout est permis ! Mario, Bowser, Peach, Dobnkey Kong et toute l'équipe sont prêts pour l'action et il n'y a pas d'arbitre sur le terrain ! - Customise ton équipe, fais des entraînements, dribble, tacle, marque des buts... Les spectateurs se mêleront aussi, en lançant peaux de banane et d'autres objets insolites en cours de partie...</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 7 ans</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu d'action-réaction virtuel</subfield>
+         <subfield code="0">A108</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de règles virtuel</subfield>
+         <subfield code="0">A412</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="655" ind1=" " ind2="7">
+         <subfield code="a">Jeux vidéo</subfield>
+         <subfield code="2">ram</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Nintendo, nan</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">5</subfield>
+         <subfield code="b">Jeux Virtuels</subfield>
+         <subfield code="c">VIR. jeu pour console</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450045</subfield>
+            <subfield code="h">VIR. jeu pour console</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>VIR. jeu pour console</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2024-09-19</arrival_date>
+         <barcode>EY3427</barcode>
+         <description>boîtier Switch -- cartouche Switch: -- 'Mario Strikers Battle -- League Football' -- A lire : précautions / avertissement / -- licence (fixé à l'envers de la -- couverture)</description>
+         <inventory_date>2025-03-19</inventory_date>
+         <inventory_price>59,95</inventory_price>
+         <internal_note_3>Fournisseur : FNAC</internal_note_3>
+         <item_location>811450045</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nmm a2200457 a 4500</leader>
+      <controlfield tag="006">m&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;|q&lt;diese&gt;&lt;diese&gt;g&lt;diese&gt;|&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;</controlfield>
+      <controlfield tag="007">c|||||||||||||</controlfield>
+      <controlfield tag="008">      s2024    xx     ||  | |      mul||</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice valable pour toutes les versions (consoles) du jeu !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="8" ind2=" ">
+         <subfield code="a">045496511630</subfield>
+         <subfield code="q">Nintendo Switch</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1927</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1="1" ind2=" ">
+         <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Princess Peach Showtime</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="1">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Nintendo, </subfield>
+         <subfield code="c">2024</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu vidéo dans 1 boîtier</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">cod</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">c</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">cb</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Vérifiez le boîtier du jeu pour connaître les configurations requises.</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Consultez le détail des exemplaires pour savoir quelles versions du jeu (console) sont disponibles dans votre bibliothèque.</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Princess Peach fait ses grands débuts sur la scène du Sparkle Theatre. Mais les méchants Grape et Sour Bunch lui volent la vedette ! Aide la princesse Peach et la gardienne du théâtre, en assumant plusieurs rôles et utilise des capacités époustouflantes pour sauver la mise !</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 7 ans</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de règles virtuel</subfield>
+         <subfield code="0">A412</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="655" ind1=" " ind2="7">
+         <subfield code="a">Jeux vidéo</subfield>
+         <subfield code="2">ram</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Nintendo, nan</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">5</subfield>
+         <subfield code="b">Jeux Virtuels</subfield>
+         <subfield code="c">VIR. jeu pour console</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450045</subfield>
+            <subfield code="h">VIR. jeu pour console</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>VIR. jeu pour console</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2024-12-19</arrival_date>
+         <barcode>EY3447</barcode>
+         <description>boîtier Switch -- cartouche Switch : -- Princess Peach Showtime -- avertissement, en A6 laminé</description>
+         <inventory_date>2024-12-19</inventory_date>
+         <inventory_price>59,95</inventory_price>
+         <internal_note_3>Fournisseur : FNAC.</internal_note_3>
+         <item_location>811450045</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nmm a2200457 a 4500</leader>
+      <controlfield tag="006">m&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;|q&lt;diese&gt;&lt;diese&gt;g&lt;diese&gt;|&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;</controlfield>
+      <controlfield tag="007">c|||||||||||||</controlfield>
+      <controlfield tag="008">      s2023    xx     ||  | |      mul||</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice valable pour toutes les versions (consoles) du jeu !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="8" ind2=" ">
+         <subfield code="a">045496478650</subfield>
+         <subfield code="q">Nintendo Switch</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1947</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1="1" ind2=" ">
+         <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Kirby's Return to Dreamland Deluxe</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="1">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Nintendo ; HAL Laboratory Inc., </subfield>
+         <subfield code="c">2023</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu vidéo dans 1 boîtier</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">cod</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">c</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">cb</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Vérifiez le boîtier du jeu pour connaître les configurations requises.</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Consultez le détail des exemplaires pour savoir quelles versions du jeu (console) sont disponibles dans votre bibliothèque.</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Avec Kirby et ses amis aidez à réparer le navire de l'espace de Magolor pour qu'il puisse repartir sur sa planète ! - A travers les différents niveaux, tentez de récupérer les bouts du vaisseau et les sphères d'énergie. Affontez les ennemis, utilisez de nouveaux pouvoirs, et amusez-vous avec les 10 mini-jeux. </subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 7 ans</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu d'action-réaction virtuel</subfield>
+         <subfield code="0">A108</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de règles virtuel</subfield>
+         <subfield code="0">A412</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="655" ind1=" " ind2="7">
+         <subfield code="a">Jeux vidéo</subfield>
+         <subfield code="2">ram</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">5</subfield>
+         <subfield code="b">Jeux Virtuels</subfield>
+         <subfield code="c">VIR. jeu pour console</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450045</subfield>
+            <subfield code="h">VIR. jeu pour console</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>VIR. jeu pour console</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2025-01-30</arrival_date>
+         <barcode>EY3467</barcode>
+         <description>boîtier Switch -- cartouche Switch: -- 'Kirby's Return to Dreamland Deluxe' -- A lire : précautions / avertissement / -- en A6 laminée, fixée dans la boîte</description>
+         <inventory_date>2025-03-31</inventory_date>
+         <inventory_price>59,95</inventory_price>
+         <internal_note_3>Fournisseur : FNAC</internal_note_3>
+         <item_location>811450045</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nmm a2200457 a 4500</leader>
+      <controlfield tag="006">m&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;|q&lt;diese&gt;&lt;diese&gt;g&lt;diese&gt;|&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;</controlfield>
+      <controlfield tag="007">c|||||||||||||</controlfield>
+      <controlfield tag="008">      s2024    xx     ||  | |      mul||</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice valable pour toutes les versions (consoles) du jeu !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="8" ind2=" ">
+         <subfield code="a">3701529506659</subfield>
+         <subfield code="q">Nintendo Switch</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1968</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="041" ind1="1" ind2=" ">
+         <subfield code="a">fre</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="4">
+         <subfield code="a">Les Schtroumpfs Village Party</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="1">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Nintendo, </subfield>
+         <subfield code="c">2024</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu vidéo dans 1 boîtier</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">cod</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">c</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">cb</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Vérifiez le boîtier du jeu pour connaître les configurations requises.</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Consultez le détail des exemplaires pour savoir quelles versions du jeu (console) sont disponibles dans votre bibliothèque.</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Amusez-vous avec 50 jeux originaux à jouer en famille et avec vos copains dans l'univers des Schtroumpfs. - Le Grand Schtroumpf a décidé d'organiser une fête mondiale des Schtroumpfs, mais Gargamel fera tout pour gâcher cette occasion ! - Avec 6 types de mini-jeux : rapidité, chance, mémoire, sport, bataille et précision.</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 6 ans</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu d'action-réaction virtuel</subfield>
+         <subfield code="0">A108</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de règles virtuel</subfield>
+         <subfield code="0">A412</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="655" ind1=" " ind2="7">
+         <subfield code="a">Jeux vidéo</subfield>
+         <subfield code="2">ram</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Microids, SA</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">5</subfield>
+         <subfield code="b">Jeux Virtuels</subfield>
+         <subfield code="c">VIR. jeu pour console</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450045</subfield>
+            <subfield code="h">VIR. jeu pour console</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>VIR. jeu pour console</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2025-06-09</arrival_date>
+         <barcode>EY3487</barcode>
+         <description>boîtier Switch -- cartouche Switch : -- 'Les Schtroumpfs Village Party'</description>
+         <inventory_date>2025-07-03</inventory_date>
+         <inventory_price>42,95</inventory_price>
+         <internal_note_3>Fournisseur : FNAC</internal_note_3>
+         <item_location>811450045</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+   <record>
+      <leader>02167nmm a2200457 a 4500</leader>
+      <controlfield tag="006">m&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;|q&lt;diese&gt;&lt;diese&gt;g&lt;diese&gt;|&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;&lt;diese&gt;</controlfield>
+      <controlfield tag="007">c|||||||||||||</controlfield>
+      <controlfield tag="008">      s        xx     ||  | |      mul||</controlfield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">!!! Notice importée automatiquement, à vérifier et à compléter si nécessaire !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice valable pour toutes les versions (consoles) du jeu !!!</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="024" ind1="8" ind2=" ">
+         <subfield code="a">045496421700</subfield>
+         <subfield code="q">Nintendo Switch</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(LUETOY)1999</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV etoy</subfield>
+      </datafield>
+      <datafield tag="245" ind1="0" ind2="0">
+         <subfield code="a">Donkey Kong Country Tropical Freeze</subfield>
+      </datafield>
+      <datafield tag="264" ind1=" " ind2="1">
+         <subfield code="a">[Lieu de publication non identifié] : </subfield>
+         <subfield code="b">Nintendo, </subfield>
+         <subfield code="c">[date de publication non identifiée]</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">1 jeu vidéo dans 1 boîtier</subfield>
+      </datafield>
+      <datafield tag="336" ind1=" " ind2=" ">
+         <subfield code="b">cod</subfield>
+         <subfield code="2">rdacontent</subfield>
+      </datafield>
+      <datafield tag="337" ind1=" " ind2=" ">
+         <subfield code="b">c</subfield>
+         <subfield code="2">rdamedia</subfield>
+      </datafield>
+      <datafield tag="338" ind1=" " ind2=" ">
+         <subfield code="b">cb</subfield>
+         <subfield code="2">rdacarrier</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Vérifiez le boîtier du jeu pour connaître les configurations requises.</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Consultez le détail des exemplaires pour savoir quelles versions du jeu (console) sont disponibles dans votre bibliothèque.</subfield>
+      </datafield>
+      <datafield tag="520" ind1="8" ind2=" ">
+         <subfield code="a">Une armée de Vikings a jeté un froid sur l'île de Donkey Kong. Pour les repousser, il va falloir combattre aux côtés des singes Diddy Kong, Dixie Kong, Funky Kong et Cranky Kong… - Jeu de plateforme en action - vous allez nager, vous balancer et bondir à travers des niveaux remplis d’épreuves et de bonus ! Explorez les 6 mondes des personnages.</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="521" ind1=" " ind2=" ">
+         <subfield code="a">Age min : 6 ans</subfield>
+         <subfield code="9">vdetoy/08.2025</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu d'action-réaction virtuel</subfield>
+         <subfield code="0">A108</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="650" ind1=" " ind2="7">
+         <subfield code="a">Jeu de règles virtuel</subfield>
+         <subfield code="0">A412</subfield>
+         <subfield code="2">esar</subfield>
+      </datafield>
+      <datafield tag="655" ind1=" " ind2="7">
+         <subfield code="a">Jeux vidéo</subfield>
+         <subfield code="2">ram</subfield>
+      </datafield>
+      <datafield tag="710" ind1="2" ind2=" ">
+         <subfield code="a">Nintendo, nan</subfield>
+         <subfield code="4">cre</subfield>
+      </datafield>
+      <datafield tag="972" ind1=" " ind2=" ">
+         <subfield code="a">vdetoy</subfield>
+      </datafield>
+      <datafield tag="905" ind1=" " ind2=" ">
+         <subfield code="a">etoyjcoeur</subfield>
+         <subfield code="b">2508</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="985" ind1=" " ind2=" ">
+         <subfield code="2">cetoy</subfield>
+         <subfield code="a">5</subfield>
+         <subfield code="b">Jeux Virtuels</subfield>
+         <subfield code="c">VIR. jeu pour console</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportPython/etoy</subfield>
+      </datafield>
+      <holding_data>
+         <leader>     nx  a22     1n 4500</leader>
+         <datafield tag="852" ind1=" " ind2=" ">
+            <subfield code="b">etoy</subfield>
+            <subfield code="c">811450045</subfield>
+            <subfield code="h">VIR. jeu pour console</subfield>
+         </datafield>
+      </holding_data>
+      <item_data>
+         <alternative_call_number>VIR. jeu pour console</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <arrival_date>2025-06-27</arrival_date>
+         <barcode>EY3517</barcode>
+         <description>boîtier Switch -- cartouche Switch: -- 'Donkey Kong Country Tropical Freeze' -- A lire : précautions / avertissement / -- en A6, scotché à l'intérieur</description>
+         <inventory_date>2025-07-03</inventory_date>
+         <inventory_price>64,95</inventory_price>
+         <internal_note_3>Fournisseur : FNAC</internal_note_3>
+         <item_location>811450045</item_location>
+         <physical_material_type>GAME</physical_material_type>
+         <policy>3000</policy>
+      </item_data>
+   </record>
+</collection>
