@@ -1,10 +1,14 @@
-""" Local functions """
-from log import convert_log_excel, rm_empty_file
+# Copyright 2025 Renouvaud
+# License GPL-3.0 or later (https://www.gnu.org/licenses/gpl-3.0)
+
 """ Python libraries """
 import json
 import xml.etree.ElementTree as etree
 import re # for regex
 from pickle import FALSE, TRUE
+
+""" Local functions """
+from log import convert_log_excel, rm_empty_file
 
 
 # Encode record for API

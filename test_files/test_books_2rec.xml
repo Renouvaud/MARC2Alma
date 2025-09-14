@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+   <record>
+      <leader>00625nam a2200145 c 4500</leader>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice importée par Profils d'import</subfield>
+         <subfield code="9">vdtest/08.2025</subfield>
+      </datafield>
+      <datafield tag="020" ind1=" " ind2=" ">
+         <subfield code="a">9784561234567</subfield>
+      </datafield>	  
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV test</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(TEST)book5781</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportProfile/test</subfield>
+      </datafield>
+      <controlfield tag="007">ta</controlfield>
+      <controlfield tag="008">110624s1994    xxu|||||||||| 00| 0 zxx d</controlfield>
+      <datafield tag="100" ind1="1" ind2=" ">
+         <subfield code="a">Tschanz, Micheline</subfield>
+         <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="245" ind1="1" ind2="0">
+         <subfield code="a">Bernard Reichel : </subfield>
+         <subfield code="b">la découverte d'un musicien et compositeur romand /</subfield>
+         <subfield code="c">Micheline Tschanz</subfield>
+      </datafield>
+      <datafield tag="264" ind1="" ind2="1">
+         <subfield code="a">Lausanne : </subfield>
+         <subfield code="b">Conservatoire, </subfield>
+         <subfield code="c">1994</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">57 f. : ill. ; </subfield>
+         <subfield code="c">30 cm + 1 fascicule</subfield>
+      </datafield>
+      <datafield tag="500" ind1=" " ind2=" ">
+         <subfield code="a">Le fascicule d'accompagnement est un catalogue des oeuvres de B. Reichel, réalisé par l'Association Bernard Reichel en 1993</subfield>
+      </datafield>
+      <datafield tag="600" ind1="1" ind2="7">
+         <subfield code="a">Reichel, Bernard</subfield>
+         <subfield code="2">idref</subfield>
+      </datafield>
+      <datafield tag="972" ind1="" ind2="">
+         <subfield code="a">vdtest</subfield>
+      </datafield>
+      <datafield tag="985" ind1="" ind2="">
+         <subfield code="2">ctest</subfield>
+         <subfield code="a">M- 130</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+	  <holding_data>
+		  <leader>     nx  a22     1n 4500</leader>
+		  <datafield tag="852" ind1="" ind2="">
+			 <subfield code="b">vdtest</subfield>
+			 <subfield code="c">814080003</subfield>
+			 <subfield code="h">M- 130</subfield>
+		  </datafield>
+	  </holding_data>
+      <item_data>
+         <item_location>814080003</item_location>
+         <barcode>TEST-115226</barcode>
+         <policy>3000</policy>
+         <arrival_date>2011-06-24</arrival_date>
+         <description/>
+         <alternative_call_number>M- 130</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <physical_material_type>BOOK</physical_material_type>
+      </item_data>
+	  <holding_data>
+		  <leader>     nx  a22     1n 4500</leader>
+		  <datafield tag="852" ind1="" ind2="">
+			 <subfield code="b">vdtest</subfield>
+			 <subfield code="c">814080003</subfield>
+			 <subfield code="h">M- 131</subfield>
+		  </datafield>
+	  </holding_data>
+      <item_data>
+         <item_location>814080003</item_location>
+         <barcode>TEST-115229</barcode>
+         <policy>3000</policy>
+         <arrival_date>2011-06-24</arrival_date>
+         <description/>
+         <alternative_call_number>M- 131</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <physical_material_type>BOOK</physical_material_type>
+      </item_data>
+   </record>
+   <record>
+      <leader>00540nam a2200145 c 4500</leader>
+      <datafield tag="019" ind1=" " ind2=" ">
+         <subfield code="a">Notice importée par Profils d'import</subfield>
+         <subfield code="9">vdtest/08.2025</subfield>
+      </datafield>
+      <datafield tag="040" ind1=" " ind2=" ">
+         <subfield code="a">RNV test</subfield>
+      </datafield>
+      <datafield tag="035" ind1=" " ind2=" ">
+         <subfield code="a">(TEST)mem5782</subfield>
+      </datafield>
+      <datafield tag="998" ind1=" " ind2=" ">
+         <subfield code="a">ImportProfile/test</subfield>
+      </datafield>
+      <controlfield tag="007">ta</controlfield>
+      <controlfield tag="008">110624s1994    xxu|||||||||| 00| 0 zxx d</controlfield>
+      <datafield tag="100" ind1="1" ind2=" ">
+         <subfield code="a">Nicolet, Claude</subfield>
+         <subfield code="4">aut</subfield>
+      </datafield>
+      <datafield tag="245" ind1="1" ind2="0">
+         <subfield code="a">Au coeur d'un choeur d'enfants /</subfield>
+         <subfield code="c">Claude Nicolet</subfield>
+      </datafield>
+      <datafield tag="264" ind1="" ind2="1">
+         <subfield code="a">[Lausanne] : </subfield>
+         <subfield code="b">[Conservatoire], </subfield>
+         <subfield code="c">1994</subfield>
+      </datafield>
+      <datafield tag="300" ind1=" " ind2=" ">
+         <subfield code="a">43 f. : </subfield>
+         <subfield code="b">illustrations ; </subfield>
+         <subfield code="c">30 cm.</subfield>
+      </datafield>
+      <datafield tag="653" ind1="" ind2="">
+         <subfield code="a">Musique à l'école</subfield>
+         <subfield code="a">réflexions</subfield>
+      </datafield>
+      <datafield tag="653" ind1="" ind2="">
+         <subfield code="a">Choeur d'enfant</subfield>
+      </datafield>
+      <datafield tag="972" ind1="" ind2="">
+         <subfield code="a">vdtest</subfield>
+      </datafield>
+      <datafield tag="985" ind1="" ind2="">
+         <subfield code="2">ctest</subfield>
+         <subfield code="a">M- 131</subfield>
+         <subfield code="9">local</subfield>
+      </datafield>
+	  <holding_data>
+		  <leader>     nx  a22     1n 4500</leader>
+		  <datafield tag="852" ind1="" ind2="">
+			 <subfield code="b">vdtest</subfield>
+			 <subfield code="c">814080003</subfield>
+			 <subfield code="h">M- 131</subfield>
+		  </datafield>
+	  </holding_data>
+      <item_data>
+         <item_location>814080003</item_location>
+         <barcode>TEST-115227</barcode>
+         <policy>2000</policy>
+         <arrival_date>2011-06-24</arrival_date>
+         <description/>
+         <alternative_call_number>M- 131</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <physical_material_type>BOOK</physical_material_type>
+      </item_data>
+      <item_data>
+         <item_location>814080003</item_location>
+         <barcode>TEST-115227+1</barcode>
+         <policy>3000</policy>
+         <arrival_date>2011-06-24</arrival_date>
+         <description/>
+         <alternative_call_number>M- 131(+2)</alternative_call_number>
+         <alternative_call_number_type>8</alternative_call_number_type>
+         <physical_material_type>BOOK</physical_material_type>
+      </item_data>
+   </record>
+</collection>

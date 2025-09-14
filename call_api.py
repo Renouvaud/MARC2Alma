@@ -1,19 +1,17 @@
-""" Local functions """
-from general import *
+# Copyright 2025 Renouvaud
+# License GPL-3.0 or later (https://www.gnu.org/licenses/gpl-3.0)
+
 """ Python libraries """
-from configparser import NoOptionError
 from urllib.parse import quote, urlencode
-import requests # API call
+import requests 
 import xml.etree.ElementTree as etree
-import re # for regex
+import re 
 
-def sru_search(env, search_type, content):
+""" Local functions """
+from general import get_el
 
-    if env == 'prod' :
-        url = 'https://eu01.alma.exlibrisgroup.com/view/sru/41BCULAUSA_NETWORK'
-    if env == 'sb' :
-        url = 'https://renouvaud-psb.alma.exlibrisgroup.com/view/sru/41BCULAUSA_NETWORK'
-    
+
+def sru_search(url, search_type, content):
     params = {'version': '1.2',
           'operation': 'searchRetrieve',
           'record_schema': 'marcxml',
@@ -26,8 +24,7 @@ def sru_search(env, search_type, content):
         mms_id = ''
         match = re.search('(<controlfield tag="001">)([0-9]+)(</controlfield>)', r.text)
         if match != None:
-            mms_id = match.group(2)
-        #import pdb; pdb.set_trace()        
+            mms_id = match.group(2)       
         error = get_el(r.text, "diag:message")
         return {'error' : error, 'record_count' : record_count , 'nz_id': mms_id, 'r_code' : r.status_code, 'r_xml' : r.text}
         

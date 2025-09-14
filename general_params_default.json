@@ -1,29 +1,30 @@
 {
     "env_param" : {
             "env" : "sb",  
-            "_comment" : "choose Alma instance : 'sb' for sandbox env or 'prod' for production" 
+            "_comment" : "choose Alma environment : 'sb' for sandbox env or 'prod' for production" 
     },
     "inst_param" : {
-            "inst" : "sp",
-            "_comment" : "choose Alma institution : 'sp' for Sciences et Patrimoines or 'elp' for Ecoles et Lecture Publique"
+            "inst" : "iz1",
+            "_comment" : "choose Alma institution zone used to add local fields: abbreviation used must be consistent with those provided in secure_params.json"
     },    
     "file_param" : {
-            "XMLfile_name" : "hemu_edocs_format_part3",
-            "XMLfile_path" : "./xml_files/hemucl/CRSR",
-            "_comment" : "if file in execution folder don't change value of XMLfile_path, else give path : for example 'C:/Users/username/Documents'"
+            "XMLfile_name" : "test_books_2rec",
+            "XMLfile_path" : "./test_files/",
+            "_comment" : "e.g.: 'C:/Users/username/Documents'"
     },
+    "secure_file_path" : "./secure_files/",
     "rules_param" : {
-            "nz_rule_sb" : "140832903970002851",
-            "nz_rule_prod" : "140832903970002851",
-            "nz_rule_sb_update" : "140888157900002851",
-            "nz_rule_prod_update" : "140888157900002851",
-            "iz_rule_sb" : "",
-            "iz_rule_prod" : "",
-            "iz_rule_sb_update" : "",
-            "iz_rule_prod_update" : "",
-            "_comment" : "normalization rules id to apply in Alma ('nz' = Network zone, 'iz' = Institution zone) : put process ID, example in sp sandbox '102793104110002851'"
+        "nz_rule_sb" : "",
+        "nz_rule_prod" : "",
+        "nz_rule_sb_update" : "",
+        "nz_rule_prod_update" : "",
+        "iz_rule_sb" : "",
+        "iz_rule_prod" : "",
+        "iz_rule_sb_update" : "",
+        "iz_rule_prod_update" : "",
+        "_comment" : "process id to apply in Alma ('nz' = Network zone, 'iz' = Institution zone) : e.g. '102793104110XXXX'"
     },
-    "code_bib_alma" : "hemucl",
+    "code_bib_alma" : "vdtest",
     "fields_update" : {
         "972" : { 
             "update_method" : "concat_at_end",
@@ -42,30 +43,33 @@
             "subfields" : false
         },
         "_comment" : {
-            "update_method" : "choose between : 1'concat_at_end', 2'add_new_field' or 3'add_new_subfield",
-            "update_method1" : "2. add field if same field with same subfields doesn't exist, don't check indicators, example : will add whole field '985 $$2 test $$a 980' even if '985 $$2 vdbcul $$a 980' already exists",
-            "update_method2" : "3. check in every existing field if subfield exist before to add, with same example as before : will only add '$$2 test' in existing 985",
-            "subfields" : "add each subfields between [] with comma separator. If yon want to get all subfields, use keyword 'all'"
+            "update_method" : [
+                "choose between : 1'concat_at_end', 2'add_new_field' or 3'add_new_subfield",
+                "2. add field if same field with same subfields doesn't exist, doesn't check indicators, e.g.: add whole field '985 $$2 test $$a 980' even if '985 $$2 vdbcul $$a 980' already exists",
+                "3. check in every existing field if subfield exist before to add, with same example as before : will only add '$$2 test' in existing 985"
+            ],
+            "subfields" : "add each subfields between [] with comma separator --> e.g. ['a', 'b']. To get all subfields, use keyword 'all'. Use 'false' if not applicable"
         }
     },
     "item_cote" : {
-        "bool" : "True",
-        "_comment" : "si bool est True, la cote d'item du fichier ne sera pas utilisée pour sélectionner la holding alma mais simplement ajoutée dans l'item"
+        "bool" : "False",
+        "_comment" :  "if bool is True, item cotation in input file (alternative call number) not used to select holding but simply added in item"
     },
     "cote_generique" : {
         "regex" : "\\s?\\(\\+[0-9]+\\)$",
-        "_comment" : {
-            "regex1" : "replace cotation in holding only",
-            "regex2" : "'\\s?\\(\\+[0-9]+\\)$' replace '1234567+(3)' by '1234567'",
-            "regex3" : "'/[0-9]+$' replace 12234567/3 by 1234567",
-            "regex4" : "if not replacement for cotation in holding, use empty quotes"
-        }
+        "_comment" : [
+            "this setting allows to add multiple items in a same holding",
+            "replace cotation in holding but not in item",
+            "'\\s?\\(\\+[0-9]+\\)$' replace '1234567+(3)' by '1234567'",
+            "'/[0-9]+$' replace 12234567/3 by 1234567",
+            "if not replacement for cotation in holding, use empty quotes"
+        ]
     },
     "cote_j" : {
         "bool" : "True",
         "_comment" : {
             "bool" : "if 2nd cotation (852 $$j in holding), put True, else False",
-            "item_cote" : "if True, 1st and 2nd cotation must be in item alternative_call_number : example 'cote1|cote2'"
+            "item_cote" : "if item_cote is True, 1st and 2nd cotation must be in item alternative_call_number : example 'cote1|cote2'"
         }
     },
     "check_duplicates" : {
@@ -77,24 +81,28 @@
     "check_bib_match" : {
         "id_type" : "035",
         "identifier" : "",
-        "multi_prefix" : "(HEMUCL)edoc|(HEMUCL)fa|(HEMUCL)book|(HEMUCL)multip|(HEMUCL)multid|(HEMUCL)partp|(HEMUCL)partd",
+        "multi_prefix" : "(TEST)book|(TEST)mem",
         "_comment" : {
             "id_type" : "for 'id_type' choose between 'iz_id', 'nz_id', '035' or 'empty' if no check needed on existing Alma bib recrod",
-            "identifier" : "identifier is optional, usefull to specify xpath of tag given in id_type, if not necessary use empty quotes",
-            "identifier1" : "default values : iz_id --> 'mms_id', nz_id --> 'mms_id', 035 --> './datafield[@tag='035']/subfield[@code='a']'",
-            "multi_prefix" : "multi_prefix is used to specify different prefixes that id_type might have in Alma, if not necessary use empty quotes",
-            "multi_prefix1" : "!! if used first value must be prefix used in XMLfile and use pipe as separator '|', example : (HEMUCL)edoc|(HEMUCL)fa|(HEMUCL)book !!"
+            "identifier" : [
+                "identifier is optional, usefull to specify xpath of given tag in id_type, if not necessary use empty quotes",
+                "default values : iz_id --> 'mms_id', nz_id --> 'mms_id', 035 --> './datafield[@tag='035']/subfield[@code='a']'"
+                ],
+            "multi_prefix" : [
+                "multi_prefix is used to specify different prefixes that id_type might have in Alma, if not necessary use empty quotes",
+                "if used first value must be prefix used in XMLfile. Use pipe as separator '|', example : (TEST)edoc|(TEST)part|(TEST)book"
+            ]
         }
     },
     "sru_search" : {
         "bool" : "True",
-        "identifier" : ["standard_number"],
-        "other_search_criteria" : ["title"],
+        "identifier" : ["isbn", "issn", "standard_number"],
         "filter_criteria_and" : ["245|a_b"],
         "filter_criteria_or" : ["264|b"],
-        "_comment" : "valeurs possibles pour identifier : isbn, issn, standard_number",
-        "_comment1" : "if multimatch_found, record not imported and log record unimported only in log_bib_match with multimatch error",
-        "_comment2" : "pour l'instant l'élément 'other_search_criteria' n'est pas implémenté. La recherche sru s'effectue actuellement uniquement sur les identifiants tandis que les éléments renseignés dans 'filter_criteria_and' et 'filter_criteria_or' sont combinés avec l'opérateur AND pour exclure les résultats qui ne correspondent pas",
-        "_comment3" : "critères de vérification pour les chaines de caractères : nb_mots>5 and nb_mots_diff<3) or nb_mots>2 and nb_mots_diff<2) or nb_mots_diff==0 --> chaines considérées comme suffisamment identiques pour ne pas exclure la notice"
+        "_comment" : {
+            "identifier" : "allowed values : isbn, issn, standard_number",
+            "log_sru" : "if multimatch_found, record not imported and log only added in log_bib_match with multimatch error",
+            "filter_criteria" : "filter criteria for string subfield: (nb_words>5 and nb_words_diff<3) or (nb_words>2 and nb_words_diff<2) or nb_words_diff==0"
+        }
     }
 }

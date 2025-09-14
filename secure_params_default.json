@@ -1,0 +1,17 @@
+{
+    "api_keys": {
+        "api_key_nz_prod" : "",
+        "api_key_nz_sb" : "",
+        "api_key_iz1_prod" : "",
+        "api_key_iz1_sb" : "",
+        "api_key_iz2_prod" :"",
+        "api_key_iz2_sb" : "",
+        "api_key_izn_prod" : "",
+        "api_key_izn_sb" : ""
+    },
+    "sru_link": {
+        "url_sb" : "https://xxx-psb.alma.exlibrisgroup.com/view/sru/xxx",
+        "url_prod" : "https://xxx.alma.exlibrisgroup.com/view/sru/xxx",
+        "official_doc" : "https://developers.exlibrisgroup.com/alma/integrations/SRU/"
+    }
+}

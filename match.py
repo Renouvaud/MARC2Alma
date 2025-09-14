@@ -1,3 +1,7 @@
+# Copyright 2025 Renouvaud
+# License GPL-3.0 or later (https://www.gnu.org/licenses/gpl-3.0)
+
+""" Python libraries """
 from unidecode import unidecode
 import re
 from pymarc import *
